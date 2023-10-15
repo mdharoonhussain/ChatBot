@@ -6,7 +6,8 @@ const sendChatBtn = document.querySelector(".chat-input span");
 
 let userMessage = null;
 // const API_KEY = "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";  // new api
-const API_KEY = "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"; // new api
+// const API_KEY = "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"; // new api
+const API_KEY = "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"; // new api
 const inputInitHeight = chatInput.scrollHeight;
 
 const createChatLi = (message, className) => {
@@ -26,7 +27,7 @@ const generateResponse = (chatElement) => {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": `Bearer ${API_KEY}`
+            "Authorization": `Bearer ${API_KEY}` 
         },
         body: JSON.stringify({
             "model": "gpt-3.5-turbo",
