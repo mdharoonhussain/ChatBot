@@ -5,7 +5,7 @@ This project is a simple chatbot created using HTML, CSS, JavaScript, and the Op
 
 ![Chatbot Demo](/path-to-demo-gif.gif)
 
-## Deployment Link - https://openaichatbotapp.netlify.app/
+## Deployment Link - https://openaigenerator.netlify.app/
 
 ## Features
 - Real-time chat interface.
